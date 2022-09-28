@@ -1,0 +1,123 @@
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+.left-item, .right-item{
+    font-size: 14px;
+    display: inline-block;
+    color: #202124;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 5px;
+    }
+.right-items{
+    margin-left: auto;
+}
+.photo-google{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-ipt-search{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#ipt-search{
+    height: 46px;
+    border-radius: 24px;
+    border:1px solid rgb(198, 198, 198);
+    width: 584px;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+.options-search{
+    padding-top: 2px;
+    display: flex;
+    justify-content: center;
+}
+.option{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.languages{
+    height: 134px;
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+    color: #4d5156;
+    line-height: 28px;
+    font-size: small;
+    flex-grow: 1;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.footer{
+    background: #f2f2f2;
+    box-sizing: border-box;
+}
+.country-name{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+.footer-info{
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.info1{
+    order: 0;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.info2{
+    justify-content: flex-start;
+    min-width: 30%;
+    order: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+.info3{
+    justify-content: flex-end;
+    order: 3;
+    min-width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.info-item{
+    color: #70757a;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.ecoinfo{
+    color: #70757a;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+}
